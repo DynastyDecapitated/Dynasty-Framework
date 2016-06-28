@@ -1,0 +1,70 @@
+/**
+ * Dynasty Slider
+ * Author: Luqman Yasin
+ * Author URL: https://luqman.online
+ * Date : 28/06/2016
+ **/
+
+.sliderCont {
+  text-align: left;
+  width: 1028px;
+  margin: 0 auto;
+}
+.sliderCont .slider {
+  width: 1028px;
+  height: 355px;
+  background: url(assets/sliderBg.png);
+  position: relative;
+  margin-bottom: -2px;
+  text-align: center;
+}
+.sliderCont .slider .sliders .sliderImage.activeSlide {
+  display: inline-block;
+}
+.sliderCont .slider .sliders .sliderImage {
+  margin: auto auto;
+  margin-top: 15.5px;
+  display: none;
+}
+.sliderCont .slider .ellipses {
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  left: calc(50% - 30.5px);
+}
+.sliderCont .slider .ellipse {
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: rgba(119, 157, 212, .5);
+  width: 9px;
+  height: 9px;
+  box-sizing: border-box;
+  border: 1px solid rgba(119, 157, 212, 1);
+  display: inline-block;
+  transition: .2s;
+}
+.sliderCont .slider .ellipse.active, .sliderCont .slider .ellipse:hover {
+  background-color: rgb(119, 157, 212);
+}
+
+.sliderCont .images {
+  text-align: center;
+  margin: 0 auto;
+  background: url(assets/sliderImages.png) no-repeat center top;
+  width: 1028px;
+  height: 130px;
+  position: relative;
+  padding: 5px 0;
+  margin: 1px auto;
+  cursor: pointer;
+}
+.sliderCont .images img.active, .sliderCont .images img:hover {
+  opacity: 1;
+}
+.sliderCont .images img {
+  display: inline-block;
+  margin-right: 5px;
+  transition: .2s;
+  opacity: .6;
+}
