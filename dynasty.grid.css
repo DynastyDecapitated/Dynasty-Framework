@@ -1,0 +1,397 @@
+/* params */
+/* mixins */
+/* grid */
+.cont {
+  padding: 2%;
+  zoom: 1;
+}
+.cont:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.row {
+  margin-left: -2%;
+  padding: 2%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  zoom: 1;
+}
+.row:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .row {
+    padding: 0;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 481px) {
+  .row {
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.col.col-1 {
+  width: 100%;
+  margin-left: 0;
+  zoom: 1;
+}
+.col.col-1:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+@media only screen and (min-width: 1024px) {
+  .col.col-1 {
+    width: 7.33333%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .col.col-1 {
+    width: 8.33333%;
+  }
+}
+.col.col-1:not(:first-child) {
+  margin-left: 0;
+}
+@media only screen and (min-width: 1024px) {
+  .col.col-1:not(:first-child) {
+    margin-left: 2%;
+  }
+}
+
+.col.col-2 {
+  width: 100%;
+  margin-left: 0;
+  zoom: 1;
+}
+.col.col-2:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+@media only screen and (min-width: 1024px) {
+  .col.col-2 {
+    width: 15.66667%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .col.col-2 {
+    width: 16.66667%;
+  }
+}
+.col.col-2:not(:first-child) {
+  margin-left: 0;
+}
+@media only screen and (min-width: 1024px) {
+  .col.col-2:not(:first-child) {
+    margin-left: 2%;
+  }
+}
+
+.col.col-3 {
+  width: 100%;
+  margin-left: 0;
+  zoom: 1;
+}
+.col.col-3:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+@media only screen and (min-width: 1024px) {
+  .col.col-3 {
+    width: 24%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .col.col-3 {
+    width: 25%;
+  }
+}
+.col.col-3:not(:first-child) {
+  margin-left: 0;
+}
+@media only screen and (min-width: 1024px) {
+  .col.col-3:not(:first-child) {
+    margin-left: 2%;
+  }
+}
+
+.col.col-4 {
+  width: 100%;
+  margin-left: 0;
+  zoom: 1;
+}
+.col.col-4:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+@media only screen and (min-width: 1024px) {
+  .col.col-4 {
+    width: 32.33333%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .col.col-4 {
+    width: 33.33333%;
+  }
+}
+.col.col-4:not(:first-child) {
+  margin-left: 0;
+}
+@media only screen and (min-width: 1024px) {
+  .col.col-4:not(:first-child) {
+    margin-left: 2%;
+  }
+}
+
+.col.col-5 {
+  width: 100%;
+  margin-left: 0;
+  zoom: 1;
+}
+.col.col-5:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+@media only screen and (min-width: 1024px) {
+  .col.col-5 {
+    width: 40.66667%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .col.col-5 {
+    width: 41.66667%;
+  }
+}
+.col.col-5:not(:first-child) {
+  margin-left: 0;
+}
+@media only screen and (min-width: 1024px) {
+  .col.col-5:not(:first-child) {
+    margin-left: 2%;
+  }
+}
+
+.col.col-6 {
+  width: 100%;
+  margin-left: 0;
+  zoom: 1;
+}
+.col.col-6:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+@media only screen and (min-width: 1024px) {
+  .col.col-6 {
+    width: 49%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .col.col-6 {
+    width: 50%;
+  }
+}
+.col.col-6:not(:first-child) {
+  margin-left: 0;
+}
+@media only screen and (min-width: 1024px) {
+  .col.col-6:not(:first-child) {
+    margin-left: 2%;
+  }
+}
+
+.col.col-7 {
+  width: 100%;
+  margin-left: 0;
+  zoom: 1;
+}
+.col.col-7:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+@media only screen and (min-width: 1024px) {
+  .col.col-7 {
+    width: 57.33333%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .col.col-7 {
+    width: 58.33333%;
+  }
+}
+.col.col-7:not(:first-child) {
+  margin-left: 0;
+}
+@media only screen and (min-width: 1024px) {
+  .col.col-7:not(:first-child) {
+    margin-left: 2%;
+  }
+}
+
+.col.col-8 {
+  width: 100%;
+  margin-left: 0;
+  zoom: 1;
+}
+.col.col-8:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+@media only screen and (min-width: 1024px) {
+  .col.col-8 {
+    width: 65.66667%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .col.col-8 {
+    width: 66.66667%;
+  }
+}
+.col.col-8:not(:first-child) {
+  margin-left: 0;
+}
+@media only screen and (min-width: 1024px) {
+  .col.col-8:not(:first-child) {
+    margin-left: 2%;
+  }
+}
+
+.col.col-9 {
+  width: 100%;
+  margin-left: 0;
+  zoom: 1;
+}
+.col.col-9:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+@media only screen and (min-width: 1024px) {
+  .col.col-9 {
+    width: 74%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .col.col-9 {
+    width: 75%;
+  }
+}
+.col.col-9:not(:first-child) {
+  margin-left: 0;
+}
+@media only screen and (min-width: 1024px) {
+  .col.col-9:not(:first-child) {
+    margin-left: 2%;
+  }
+}
+
+.col.col-10 {
+  width: 100%;
+  margin-left: 0;
+  zoom: 1;
+}
+.col.col-10:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+@media only screen and (min-width: 1024px) {
+  .col.col-10 {
+    width: 82.33333%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .col.col-10 {
+    width: 83.33333%;
+  }
+}
+.col.col-10:not(:first-child) {
+  margin-left: 0;
+}
+@media only screen and (min-width: 1024px) {
+  .col.col-10:not(:first-child) {
+    margin-left: 2%;
+  }
+}
+
+.col.col-11 {
+  width: 100%;
+  margin-left: 0;
+  zoom: 1;
+}
+.col.col-11:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+@media only screen and (min-width: 1024px) {
+  .col.col-11 {
+    width: 90.66667%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .col.col-11 {
+    width: 91.66667%;
+  }
+}
+.col.col-11:not(:first-child) {
+  margin-left: 0;
+}
+@media only screen and (min-width: 1024px) {
+  .col.col-11:not(:first-child) {
+    margin-left: 2%;
+  }
+}
+
+.col.col-12 {
+  width: 100%;
+  margin-left: 0;
+  zoom: 1;
+}
+.col.col-12:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+@media only screen and (min-width: 1024px) {
+  .col.col-12 {
+    width: 99%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .col.col-12 {
+    width: 100%;
+  }
+}
+.col.col-12:not(:first-child) {
+  margin-left: 0;
+}
+@media only screen and (min-width: 1024px) {
+  .col.col-12:not(:first-child) {
+    margin-left: 2%;
+  }
+}
+
+/* rand */
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
